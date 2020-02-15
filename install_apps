@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Start install...";
-sudo pacman -S qbittorrent nautilus deepin-file-manager firefox gftp gimp inkscape rawtherapee fontforge blender deepin-picker gnac audacity sonic-visualiser canorus musescore vlc ciano handbrake gaupol libsndfile jhead exiv2 mediainfo-gui mediainfo alacritty file-roller gitg geany ghex jq umbrello gucharmap gnome-multi-writer neofetch hardinfo usbview gnome-font-viewer abiword libreoffice-still bluegriffon scribus gnome-books gnome-documents clamav clamtk rkhunter gnome-nettool nmap xorg-xcalc geogebra root units stellarium;
-echo "Goodbye!";
+echo "START INSTALLING APPS";
+sudo pacman -S qbittorrent nautilus firefox gftp gimp inkscape rawtherapee fontforge bookworm blender deepin-picker gnac audacity sonic-visualiser canorus musescore vlc ciano handbrake gaupol libsndfile jhead exiv2 mediainfo-gui mediainfo alacritty file-roller gitg geany ghex jq gucharmap gnome-multi-writer neofetch hardinfo gnome-font-viewer abiword libreoffice-still bluegriffon scribus gnome-books gnome-documents clamav clamtk rkhunter gnome-nettool nmap xorg-xcalc geogebra units grub-customizer bleachbit atom steghide zip uzip virtualbox virtualbox-host-dkms pamac-aur ufw gufw firejail;
+echo "APPS INSTALLED"
