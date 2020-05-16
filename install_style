@@ -1,9 +1,0 @@
-#!/bin/bash
-
-RED='\033[1;33m'
-NC='\033[0m'
-
-printf "${RED}START INSTALLING STYLE(themes, icons, fonts)${NC}\n";
-sudo pacman -S arc-gtk-theme adapta-gtk-theme arc-solid-gtk-theme breeze-gtk materia-gtk-theme deepin-gtk-theme gnome-themes-extra mate-themes papirus-icon-theme elementary-icon-theme deepin-icon-theme arc-icon-theme font-bh-ttf ttf-bitstream-vera ttf-croscore ttf-roboto ttf-liberation ttf-ibm-plex ttf-anonymous-pro ttf-cascadia-code ttf-fira-mono gnu-free-fonts ttf-hack adobe-source-code-pro-fonts ttf-linux-libertine inter-font noto-fonts-emoji font-mathematica;
-printf "${RED}APPS INSTALLED${NC}\n";
-
