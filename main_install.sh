@@ -4,7 +4,7 @@ RED='\033[1;33m'
 NC='\033[0m'
 
 printf "${RED}START INSTALLING APPS${NC}\n";
-sudo pacman -S qbittorrent nautilus firefox gftp gimp inkscape rawtherapee fontforge bookworm blender deepin-picker gnac audacity sonic-visualiser canorus musescore vlc ciano handbrake gaupol libsndfile jhead exiv2 mediainfo-gui mediainfo alacritty file-roller gitg geany ghex jq gucharmap gnome-multi-writer neofetch hardinfo gnome-font-viewer abiword libreoffice-still bluegriffon scribus gnome-books gnome-documents clamav clamtk rkhunter gnome-nettool nmap xorg-xcalc geogebra units grub-customizer bleachbit atom steghide zip uzip virtualbox virtualbox-host-dkms pamac-aur ufw gufw firejail;
+sudo pacman -S qbittorrent nautilus firefox gftp gimp inkscape fontforge bookworm blender deepin-picker gnac audacity vlc ciano handbrake gaupol libsndfile jhead exiv2 mediainfo-gui mediainfo alacritty file-roller gitg geany ghex jq gucharmap gnome-multi-writer neofetch hardinfo gnome-font-viewer abiword libreoffice-still gnome-books gnome-documents clamav clamtk rkhunter gnome-nettool xorg-xcalc units grub-customizer atom steghide virtualbox virtualbox-host-dkms pamac-aur ufw gufw firejail;
 printf "${RED}APPS INSTALLED${NC}\n";
 
 printf "${RED}START INSTALLING STYLE(themes, icons, fonts)${NC}\n";
